@@ -1,0 +1,8 @@
+.Foundation {
+  width: 9vw;
+  height: calc(9vw * 1.4);;
+  border-radius: 1vw;
+  background-color: rgba(255,255,255,0.3);
+  border: .5vw solid rgba(255,255,255,0.6);
+  box-sizing: border-box;
+}
