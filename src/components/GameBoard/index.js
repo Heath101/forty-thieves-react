@@ -1,3 +1,3 @@
-import React from 'react'
+import GameBoard from './GameBoard'
 
-export default () => (<div></div> )
+export default GameBoard
