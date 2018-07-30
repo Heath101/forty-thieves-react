@@ -7,7 +7,7 @@ export default class Cascade extends React.Component {
   render() {
     return (
     <div className='Cascade'>
-      <Card />
+      <Card value='3' suit='hearts'/>
     </div>
     )
   }

@@ -1,6 +1,7 @@
 .Card {
   width: 9vw;
   border-radius: 1vw;
+  cursor: pointer;
 }
 
 .Card img {

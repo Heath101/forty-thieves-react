@@ -4,16 +4,16 @@ import Cascade from '../Cascade'
 import './Cascades.css'
 
 export default class Cascades extends React.Component {
+
+  // componentDidMount() {
+  //   this.cascades = 
+  // }
+
   render() {
+    const cascades = Array(10).fill().map((_, i) => (<Cascade key={i} /> ))
     return (
       <div className='Cascades'>
-        <Cascade />
-        <Cascade />
-        <Cascade />
-        <Cascade />
-        <Cascade />
-        <Cascade />
-        <Cascade />
+        { cascades }
       </div>
     )
   }
